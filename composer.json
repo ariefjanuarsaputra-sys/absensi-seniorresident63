@@ -8,12 +8,12 @@
     "require": {
         "php": "^8.3",
         "laravel/framework": "^13.8",
+        "laravel/pail": "^1.2.5",
         "laravel/tinker": "^3.0"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^3.7",
         "fakerphp/faker": "^1.23",
-        "laravel/pail": "^1.2.5",
         "laravel/pao": "^1.0.6",
         "laravel/pint": "^1.27",
         "mockery/mockery": "^1.6",
@@ -70,9 +70,7 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [
-                "laravel/pail"
-            ]
+            "dont-discover": []
         }
     },
     "config": {
